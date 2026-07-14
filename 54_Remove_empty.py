@@ -7,5 +7,3 @@ filtered_list = [i for i in list_of_lists if i]
 
 # Print the filtered List
 print("List after removing empty lists:", filtered_list)
-
-
