@@ -14,4 +14,4 @@ for char in sentence:
 
 # Print the results
 print("LETTERS", letter_count)
-print("DIGITS", digit_count)
+print("DIGITS", digit_count) 
