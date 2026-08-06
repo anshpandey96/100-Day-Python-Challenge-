@@ -12,5 +12,3 @@ for sub in subjects:
 
 for sentence in sentences:
     print(sentence)
-
-
