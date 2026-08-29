@@ -17,6 +17,7 @@ circy = Circle(11)
 print(circy.getArea())       # Output: 380
 print(circy.getPerimeter())  # Output: 69
 
-circy = Circle(4.44)
-print(circy.getArea())       # Output: 62
-print(circy.getPerimeter())  # Output: 28
+# circy = Circle(4.44)
+# print(circy.getArea())       # Output: 62
+# print(circy.getPerimeter())  # Output: 28
+
