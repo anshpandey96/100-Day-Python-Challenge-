@@ -9,4 +9,3 @@ for i in range(1, 101):
     if is_pronic_number(i):
         print(i, end=" | ")
 
-
