@@ -1,13 +1,11 @@
-# Program to swap two variables without using a temp variable
+def correct_signs(expression):
+    try:
+        return eval(expression)
+    except:
+        return False
 
-a = 5
-b = 10
-
-# Swapping using tuple unpacking
-a, b = b, a
-
-print("After swapping:")
-print("a =", a)
-print("b =", b)
+print(correct_signs("3 < 7 < 11"))
+print(correct_signs("13 > 44 > 33 < 1"))
+print(correct_signs("1 < 2 < 6 < 9 > 3"))
 
 
