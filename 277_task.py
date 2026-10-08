@@ -7,4 +7,3 @@ disarium_numbers = [num for num in range(1, 101) if is_disarium(num)]
 
 print("Disarium numbers between 1 and 100:")
 for num in disarium_numbers:
-    print(num, end=" | ")
