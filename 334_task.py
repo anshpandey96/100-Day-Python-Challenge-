@@ -1,11 +1,10 @@
-def is_disarium(num):
-    num_str = str(num)
-    digit_sum = sum(int(i) ** (index + 1) for index, i in enumerate(num_str))
-    return num == digit_sum
+def correct_signs(expression):
+    try:
+        return eval(expression)
+    except:
+        return False
 
-disarium_numbers = [num for num in range(1, 101) if is_disarium(num)]
-
-print("Disarium numbers between 1 and 100:")
-for num in disarium_numbers:
-    print(num, end=" | ")
+print(correct_signs("3 < 7 < 11"))
+print(correct_signs("13 > 44 > 33 < 1"))
+print(correct_signs("1 < 2 < 6 < 9 > 3"))
 
